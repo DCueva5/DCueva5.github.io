@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Encriptador de Texto</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/css2.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/5acc01e1ec.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="margen">
+        <div class="box_title box">
+          <div>
+            <img src="resources/VectorLigth.png" alt="logo_mode_light" />
+          </div>
+          <div class="title">lura Proyect: Encriptador de Texto</div>
+        </div>
+      </header>
+
+      <main class="margen">
+        <div class="box">
+          <div class="item_box_1">
+            <textarea
+              class="txtEncriptar textarea1 letra focus"
+              placeholder="Coloque aqui el texto ..."
+            ></textarea>
+            <div class="info">
+              <h5>
+                <i class="fa-solid fa-circle-info"></i> Solo letras minúsculas y
+                sin acentos
+              </h5>
+            </div>
+
+            <div class="botones">
+              <button class="button button1 encriptar">Encriptar</button>
+              <button class="button button2 desencriptar">Desencriptar</button>
+            </div>
+          </div>
+          <div class="item_box_3"></div>
+
+          <div class="item_box_2">
+
+            <div class="txtcopiado ocultar">
+              Copiado
+            </div>
+            <textarea
+              class="txtDesencriptar textarea2 letra focus ocultar"
+            ></textarea>
+
+            <div class="box_img">
+              <img
+                src="/resources/Muñeco.png"
+                alt="imagen de Muñeco"
+                class="imgM ocl"
+              />
+            </div>
+
+            <p class="info ocl">Ningún mensaje fue encontrado</p>
+            <p class="info ocl" >
+              Ingresa el texto que desees encriptar o desencriptar.
+            </p>
+
+            <div class="botones">
+              <button class="button button2 copiar ocultar">Copiar</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <div class="by">Desarrollado por: Damian Cuevas</div>
+  <script src="/scripts/logica.js"></script>
+</html>
